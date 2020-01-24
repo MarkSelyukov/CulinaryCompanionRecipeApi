@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mark\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -70,11 +70,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "rhel.7.2-x64": {
-          "#import": []
         }
       }
     }
