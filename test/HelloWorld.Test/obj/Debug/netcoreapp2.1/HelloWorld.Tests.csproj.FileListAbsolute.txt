@@ -1,0 +1,16 @@
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\HelloWorld.Tests.deps.json
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\HelloWorld.Tests.runtimeconfig.json
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\HelloWorld.Tests.runtimeconfig.dev.json
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\HelloWorld.Tests.dll
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\HelloWorld.Tests.pdb
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\HelloWorld.dll
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\bin\Debug\netcoreapp2.1\HelloWorld.pdb
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\obj\Debug\netcoreapp2.1\HelloWorld.Tests.csprojAssemblyReference.cache
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\obj\Debug\netcoreapp2.1\HelloWorld.Tests.AssemblyInfoInputs.cache
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\obj\Debug\netcoreapp2.1\HelloWorld.Tests.AssemblyInfo.cs
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\obj\Debug\netcoreapp2.1\HelloWorld.Tests.csproj.CopyComplete
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\obj\Debug\netcoreapp2.1\HelloWorld.Tests.dll
+C:\Users\Mark\RiderProjects\HelloWorld\test\HelloWorld.Test\obj\Debug\netcoreapp2.1\HelloWorld.Tests.pdb
