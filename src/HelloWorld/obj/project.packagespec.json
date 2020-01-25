@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\HelloWorld.csproj",
+    "projectUniqueName": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\HelloWorld.csproj",
     "projectName": "HelloWorld",
-    "projectPath": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\HelloWorld.csproj",
-    "outputPath": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\obj\\",
+    "projectPath": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\HelloWorld.csproj",
+    "outputPath": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp2.1"

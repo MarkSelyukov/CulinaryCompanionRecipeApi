@@ -34,7 +34,7 @@ namespace HelloWorld
             var location = await GetCallingIp();
             var body = new Dictionary<string, string>
             {
-                { "Message: ", "Why are you not deploying" }
+                { "Message: ", "It works!!!!!!!" }
             };
 
             return new APIGatewayProxyResponse
