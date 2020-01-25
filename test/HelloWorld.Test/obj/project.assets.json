@@ -5781,11 +5781,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\test\\HelloWorld.Test\\HelloWorld.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\test\\HelloWorld.Test\\HelloWorld.Tests.csproj",
       "projectName": "HelloWorld.Tests",
-      "projectPath": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\test\\HelloWorld.Test\\HelloWorld.Tests.csproj",
+      "projectPath": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\test\\HelloWorld.Test\\HelloWorld.Tests.csproj",
       "packagesPath": "C:\\Users\\Mark\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\test\\HelloWorld.Test\\obj\\",
+      "outputPath": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\test\\HelloWorld.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mark\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5799,8 +5799,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\HelloWorld.csproj": {
-              "projectPath": "C:\\Users\\Mark\\RiderProjects\\HelloWorld\\src\\HelloWorld\\HelloWorld.csproj"
+            "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\HelloWorld.csproj": {
+              "projectPath": "C:\\Users\\Mark\\Documents\\GitHub\\CulinaryCompanionRecipeApi\\src\\HelloWorld\\HelloWorld.csproj"
             }
           }
         }
