@@ -32,9 +32,12 @@ namespace HelloWorld
         {
 
             var location = await GetCallingIp();
+
+            UrlMaker url = new UrlMaker("beef");
+            
             var body = new Dictionary<string, string>
             {
-                { "Message: ", "It works!!!!!!!" }
+                { "The URL that is returned is: ", url.UrlCreation }
             };
 
             return new APIGatewayProxyResponse
