@@ -13,7 +13,7 @@ namespace HelloWorld
         private string queryUrl = "&query=";
         
         private string searchAmountURL = "&number=";
-        private string searchAmount = "2";
+        public string searchAmount = "3";
 
         private string searchRecipeRequiredURL = "&instructionsRequired=";
         private string searchRecipeRequired = "true";
@@ -23,6 +23,11 @@ namespace HelloWorld
         public UrlMaker(string query)
         {
             UrlCreation = mainUrl+searchURL+apiKeyURL+apiKey+queryUrl+query+searchAmountURL+searchAmount+searchRecipeRequiredURL+searchRecipeRequired;
+        }
+
+        public UrlMaker(int id)
+        {
+            
         }
     }
 }

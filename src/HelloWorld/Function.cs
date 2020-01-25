@@ -33,11 +33,17 @@ namespace HelloWorld
 
             var location = await GetCallingIp();
 
-            UrlMaker url = new UrlMaker("beef");
-            
-            var body = new Dictionary<string, string>
+            RecipesList recipesList = new RecipesList("beef");
+
+            Recipe recipe = recipesList.recipes[0];
+            string title = recipe.title;
+            string id = recipe.id;
+            string imageUrl = recipe.imageUrls[0];
+
+                var body = new Dictionary<string, string>
             {
-                { "The URL that is returned is: ", url.UrlCreation }
+                { "Recipe title: ", title },
+                { "Recipe id: " , id}
             };
 
             return new APIGatewayProxyResponse
