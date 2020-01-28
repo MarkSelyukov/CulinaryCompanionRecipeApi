@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98929520-dde4-4f41-a2aa-ef38edbd68aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Function.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Function.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +22,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/HelloWorld/Function.cs" />
-        <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/Function.cs" />
       </list>
     </option>
   </component>
@@ -70,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580173884347</updated>
       <workItem from="1580173886011" duration="1777000" />
-      <workItem from="1580219713467" duration="5617000" />
+      <workItem from="1580219713467" duration="5937000" />
     </task>
     <servers />
   </component>
