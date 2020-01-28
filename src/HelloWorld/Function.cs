@@ -44,7 +44,7 @@ namespace HelloWorld
                         "Content-Type",
                         "application/json"
                         }
-                        }
+                    }
             };
         }
     }
