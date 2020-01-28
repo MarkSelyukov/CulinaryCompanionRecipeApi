@@ -38,13 +38,14 @@ namespace HelloWorld
             Recipe recipe = recipesList.recipes[0];
             string title = recipe.title;
             string id = recipe.id;
-            string imageUrl = recipe.imageUrls[0];
 
-                var body = new Dictionary<string, string>
-            {
-                { "Recipe title: ", title },
-                { "Recipe id: " , id}
-            };
+            // var body = new Dictionary<string, string>
+            // {
+            //     { "Recipe title: ", title },
+            //     { "Recipe id: " , id}
+            // };
+            
+            var body = new RecipesList("beef");
 
             return new APIGatewayProxyResponse
             {

@@ -31,11 +31,11 @@ namespace HelloWorld
             {
                 //I have to do it like this because I was getting errors
                 string id = recipeResults.results[i].GetValue("id").ToString();
-                string title =recipeResults.results[i].GetValue("title").ToString();
-                string readyInMinutes =recipeResults.results[i].GetValue("readyInMinutes").ToString();
-                string serving =recipeResults.results[i].GetValue("servings").ToString();
-                string image =recipeResults.results[i].GetValue("image").ToString();
-                string[] imgaeUrls =recipeResults.results[i].GetValue("imageUrls").ToObject<string[]>();
+                string title = recipeResults.results[i].GetValue("title").ToString();
+                string readyInMinutes = recipeResults.results[i].GetValue("readyInMinutes").ToString();
+                string serving = recipeResults.results[i].GetValue("servings").ToString();
+                string image = recipeResults.results[i].GetValue("image").ToString();
+                string[] imgaeUrls = recipeResults.results[i].GetValue("imageUrls").ToObject<string[]>();
             
                 Recipe recipe = new Recipe(id, title, readyInMinutes, serving, image, imgaeUrls);
 
