@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98929520-dde4-4f41-a2aa-ef38edbd68aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580173884347</updated>
       <workItem from="1580173886011" duration="1777000" />
-      <workItem from="1580219713467" duration="5257000" />
+      <workItem from="1580219713467" duration="5617000" />
     </task>
     <servers />
   </component>
