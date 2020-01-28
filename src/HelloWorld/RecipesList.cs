@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace HelloWorld
 {
-    public class RecipesList
+public class RecipesList
     {
         private string recipeListUrl;
         private string returnedRecipesString { get; set;}
