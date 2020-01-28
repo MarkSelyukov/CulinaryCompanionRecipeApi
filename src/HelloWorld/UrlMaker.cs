@@ -1,6 +1,6 @@
 ﻿namespace HelloWorld
 {
-    public class UrlMaker
+        public class UrlMaker
     {
         private string mainUrl = "https://api.spoonacular.com/";
         private string searchURL = "recipes/complexSearch?";
@@ -83,7 +83,7 @@
             string minZinc,
             string maxZinc)
         {
-            string[,] urlArray =new string[66,2]
+            string[,] urlArray = new string[66, 2]
             {
                 {"&query=", query},
                 {"&cuisine=", cuisine},
@@ -156,10 +156,10 @@
             UrlCreation = mainUrl + searchURL + apiKeyURL + apiKey + urlArray[0, 0] + urlArray[0, 1] + searchAmountURL +
                           searchAmount + searchRecipeRequiredURL + searchRecipeRequired;
 
-            for (int i = 1; i < urlArray.Length - 1; i++) //If there is an issue change the -1
+            for (int i = 1; i < 66; i++)
             {
-                if (urlArray[1, i] != null)
-                    UrlCreation = UrlCreation + urlArray[0, i] + urlArray[1, i];
+                if (urlArray[i, 1] != null)
+                    UrlCreation = UrlCreation + urlArray[i, 0] + urlArray[i, 1];
             }
         }
     }
