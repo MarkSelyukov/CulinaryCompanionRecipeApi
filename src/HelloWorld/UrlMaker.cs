@@ -83,7 +83,7 @@
             string minZinc,
             string maxZinc)
         {
-            string[,] urlArray =
+            string[,] urlArray =new string[66,2]
             {
                 {"&query=", query},
                 {"&cuisine=", cuisine},

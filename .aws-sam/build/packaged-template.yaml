@@ -10,7 +10,7 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://hellowworld7894153513286/e27c63934538a56ca48bfe1b573fdd22
+      CodeUri: s3://hellowworld7894153513286/dc29eb5944a3cdda541655e94cb2c20c
       Handler: HelloWorld::HelloWorld.Function::FunctionHandler
       Runtime: dotnetcore2.1
       Environment:
