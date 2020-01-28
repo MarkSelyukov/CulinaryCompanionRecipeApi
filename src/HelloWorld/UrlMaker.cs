@@ -20,7 +20,19 @@
 
         public UrlMaker(string query)
         {
-            UrlCreation = mainUrl+searchURL+apiKeyURL+apiKey+queryUrl+query+searchAmountURL+searchAmount+searchRecipeRequiredURL+searchRecipeRequired;
+            string[,] urlArray = new string[2, 2]
+            {
+                {"&query=", query},
+                {"two", "two"}
+            };
+            
+            UrlCreation = mainUrl+searchURL+apiKeyURL+apiKey+urlArray[0,0]+urlArray[0,1]+searchAmountURL+searchAmount+searchRecipeRequiredURL+searchRecipeRequired;
+
+            for (int i = 1; i < urlArray.Length; i++)
+            {
+                if(urlArray[1,i]!=null)
+                    UrlCreation = UrlCreation + urlArray[0, i] + urlArray[1, i];
+            }
         }
 
         public UrlMaker(int id)
