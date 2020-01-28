@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Net.Http;
+using System.Threading;
 using Newtonsoft.Json;
 
 using Amazon.Lambda.Core;
@@ -33,6 +34,8 @@ namespace HelloWorld
 
             var location = await GetCallingIp();
 
+            //TODO: Have the post request items be placed into a JSON and have the JSON be what is passes into the class
+            
             var body = new RecipesList("Pork", null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null );
 
             return new APIGatewayProxyResponse
