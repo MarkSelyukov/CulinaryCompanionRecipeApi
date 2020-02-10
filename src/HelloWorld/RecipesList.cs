@@ -86,6 +86,7 @@ namespace HelloWorld
             this.returnedRecipesString = new WebClient().DownloadString(this.recipeListUrl);
             ParseJson(recipeResults, urlMaker);
         }
+
         public void ParseJson(Recipe recipeResults, UrlMaker urlMaker)
         {
             recipeResults = JsonConvert.DeserializeObject<Recipe>(this.returnedRecipesString);
@@ -98,7 +99,7 @@ namespace HelloWorld
                 string readyInMinutes = recipeResults.results[i].GetValue("readyInMinutes").ToString();
                 string serving = recipeResults.results[i].GetValue("servings").ToString();
                 string image = recipeResults.results[i].GetValue("image").ToString();
-                string[] imageUrls = recipeResults.results[i].GetValue("imageUrls").ToObject<string[]>();
+                string[] imageUrls = {"WOOP"}; //recipeResults.results[i].GetValue("imageUrls").ToObject<string[]>();
 
                 Recipe recipe = new Recipe(id, title, readyInMinutes, serving, image, imageUrls);
 
