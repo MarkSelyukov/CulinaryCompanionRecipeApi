@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f15a0886-6400-4d5c-87e7-e6a441e2634d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld/AnalyzedInstruction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld/ExtendedIngredient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld/Measures.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld/Step.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="f15a0886-6400-4d5c-87e7-e6a441e2634d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +89,7 @@
       <workItem from="1579985954317" duration="1763000" />
       <workItem from="1579987775404" duration="2977000" />
       <workItem from="1580173351912" duration="394000" />
-      <workItem from="1581303360440" duration="1556000" />
+      <workItem from="1581303360440" duration="2168000" />
     </task>
     <servers />
   </component>
