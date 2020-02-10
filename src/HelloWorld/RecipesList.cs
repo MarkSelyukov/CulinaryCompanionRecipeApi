@@ -99,9 +99,9 @@ namespace HelloWorld
                 string readyInMinutes = recipeResults.results[i].GetValue("readyInMinutes").ToString();
                 string serving = recipeResults.results[i].GetValue("servings").ToString();
                 string image = recipeResults.results[i].GetValue("image").ToString();
-                string[] imgaeUrls = {"Woop"}; //recipeResults.results[i].GetValue("imageUrls").ToObject<string[]>();
+                string[] imageUrls = {"WOOP"}; //recipeResults.results[i].GetValue("imageUrls").ToObject<string[]>();
 
-                Recipe recipe = new Recipe(id, title, readyInMinutes, serving, image, imgaeUrls);
+                Recipe recipe = new Recipe(id, title, readyInMinutes, serving, image, imageUrls);
 
                 recipes.Add(recipe);
             }
