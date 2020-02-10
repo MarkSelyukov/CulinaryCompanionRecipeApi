@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f15a0886-6400-4d5c-87e7-e6a441e2634d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld/CookTime.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld/Equipment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld/Ingredient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Step.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Step.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +40,11 @@
         <option value="$PROJECT_DIR$/src/HelloWorld/Measures.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/ExtendedIngredient.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
-        <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Ingredient.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Equipment.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/CookTime.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Step.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +98,7 @@
       <workItem from="1579985954317" duration="1763000" />
       <workItem from="1579987775404" duration="2977000" />
       <workItem from="1580173351912" duration="394000" />
-      <workItem from="1581303360440" duration="4215000" />
+      <workItem from="1581303360440" duration="5582000" />
     </task>
     <servers />
   </component>
