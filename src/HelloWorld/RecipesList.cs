@@ -5,10 +5,10 @@ using Newtonsoft.Json;
 
 namespace HelloWorld
 {
-public class RecipesList
+    public class RecipesList
     {
         private string recipeListUrl;
-        private string returnedRecipesString { get; set;}
+        private string returnedRecipesString { get; set; }
         private Recipe recipeResults = null;
         public List<Recipe> recipes = new List<Recipe>();
 
@@ -77,11 +77,16 @@ public class RecipesList
             string minZinc,
             string maxZinc)
         {
-            UrlMaker urlMaker = new UrlMaker(query, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null, null, null, null, null, null, null,null );
+            UrlMaker urlMaker = new UrlMaker(query, null, null, null, null, null, null, null, null, null, null, null,
+                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                null);
             this.recipeListUrl = urlMaker.UrlCreation;
             this.returnedRecipesString = new WebClient().DownloadString(this.recipeListUrl);
             ParseJson(recipeResults, urlMaker);
         }
+
         public void ParseJson(Recipe recipeResults, UrlMaker urlMaker)
         {
             recipeResults = JsonConvert.DeserializeObject<Recipe>(this.returnedRecipesString);
@@ -94,8 +99,8 @@ public class RecipesList
                 string readyInMinutes = recipeResults.results[i].GetValue("readyInMinutes").ToString();
                 string serving = recipeResults.results[i].GetValue("servings").ToString();
                 string image = recipeResults.results[i].GetValue("image").ToString();
-                string[] imgaeUrls = recipeResults.results[i].GetValue("imageUrls").ToObject<string[]>();
-            
+                string[] imgaeUrls = {"Woop"}; //recipeResults.results[i].GetValue("imageUrls").ToObject<string[]>();
+
                 Recipe recipe = new Recipe(id, title, readyInMinutes, serving, image, imgaeUrls);
 
                 recipes.Add(recipe);

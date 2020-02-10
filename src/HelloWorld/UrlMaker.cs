@@ -1,6 +1,6 @@
 ﻿namespace HelloWorld
 {
-        public class UrlMaker
+    public class UrlMaker
     {
         private string mainUrl = "https://api.spoonacular.com/";
         private string searchURL = "recipes/complexSearch?";
@@ -15,7 +15,7 @@
         private string searchRecipeRequired = "true";
 
         public string UrlCreation { get; set; }
-        
+
         private string queryUrl = "&query=";
 
         public UrlMaker(string query,

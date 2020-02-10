@@ -5,7 +5,7 @@ namespace HelloWorld
     public class Recipe
     {
         public JObject[] results { get; set; }
-        
+
         public string id { get; set; }
         public string title { get; set; }
         public string readyInMinutes { get; set; }
@@ -13,7 +13,9 @@ namespace HelloWorld
         public string image { get; set; }
         public string[] imageUrls { get; set; }
 
-        Recipe() {}
+        Recipe()
+        {
+        }
 
         public Recipe(string id, string title, string readyInMinutes, string servings, string image, string[] imageUrls)
         {
