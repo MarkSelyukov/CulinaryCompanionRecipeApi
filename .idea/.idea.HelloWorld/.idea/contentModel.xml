@@ -17,10 +17,13 @@
       <e p="README.md" t="Include" />
       <e p="Solution Items" t="Include" />
       <e p="src\HelloWorld" t="IncludeRecursive">
+        <e p="AnalyzedInstruction.cs" t="Include" />
         <e p="aws-lambda-tools-defaults.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ExtendedIngredient.cs" t="Include" />
         <e p="Function.cs" t="Include" />
         <e p="HelloWorld.csproj" t="IncludeRecursive" />
+        <e p="Measures.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.1" t="Include">
@@ -30,6 +33,7 @@
         </e>
         <e p="Recipe.cs" t="Include" />
         <e p="RecipesList.cs" t="Include" />
+        <e p="Step.cs" t="Include" />
         <e p="UrlMaker.cs" t="Include" />
       </e>
       <e p="template.yaml" t="Include" />
