@@ -1,24 +1,87 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
 using System.Net;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace HelloWorld
 {
     public class RecipesList
     {
         private string recipeListUrl;
-        public string returnedRecipesString { get; set;}
-        public Recipe recipeResults = null;
+        private string returnedRecipesString { get; set; }
+        private Recipe recipeResults = null;
         public List<Recipe> recipes = new List<Recipe>();
 
-        public RecipesList(string search)
+        public RecipesList(string query,
+            string cuisine,
+            string excludeCuisine,
+            string diet,
+            string intolerances,
+            string equipment,
+            string includeIngredients,
+            string excludeIngredients,
+            string type,
+            string maxReadyTime,
+            string minCarbs,
+            string maxCarbs,
+            string minProtein,
+            string maxProtein,
+            string minCalories,
+            string maxCalories,
+            string minFat,
+            string maxFat,
+            string minCaffeine,
+            string maxCaffeine,
+            string minCopper,
+            string maxCopper,
+            string minCalcium,
+            string maxCalcium,
+            string minCholesterol,
+            string maxCholesterol,
+            string minSaturatedFat,
+            string maxSaturatedFat,
+            string minVitaminA,
+            string maxVitaminA,
+            string minVitaminC,
+            string maxVitaminC,
+            string minVitaminD,
+            string maxVitaminD,
+            string minVitaminE,
+            string maxVitaminE,
+            string minVitaminK,
+            string maxVitaminK,
+            string minVitaminB1,
+            string maxVitaminB1,
+            string minVitaminB2,
+            string maxVitaminB2,
+            string minVitaminB5,
+            string maxVitaminB5,
+            string minVitaminB3,
+            string maxVitaminB3,
+            string minVitaminB6,
+            string maxVitaminB6,
+            string minVitaminB12,
+            string maxVitaminB12,
+            string minFiber,
+            string maxFIber,
+            string minIron,
+            string maxIron,
+            string minMagnesium,
+            string maxMagnesium,
+            string minPotassium,
+            string maxPotassium,
+            string minSodium,
+            string maxSodium,
+            string minSugar,
+            string maxSugar,
+            string minZinc,
+            string maxZinc)
         {
-            UrlMaker urlMaker = new UrlMaker(search);
+            UrlMaker urlMaker = new UrlMaker(query, null, null, null, null, null, null, null, null, null, null, null,
+                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+                null);
             this.recipeListUrl = urlMaker.UrlCreation;
             this.returnedRecipesString = new WebClient().DownloadString(this.recipeListUrl);
             ParseJson(recipeResults, urlMaker);
