@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f15a0886-6400-4d5c-87e7-e6a441e2634d" name="Default Changelist" comment="" />
+    <list default="true" id="f15a0886-6400-4d5c-87e7-e6a441e2634d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld/CookTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld/Equipment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld/Ingredient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Step.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Step.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,28 +22,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/HelloWorld/Ingredient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/HelloWorld/Equipment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/HelloWorld/CookTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/HelloWorld/ExtendedIngredient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D601969F-37CD-4D20-81C9-D249262E782F/2E/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/HelloWorld/Step.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/HelloWorld/AnalyzedInstruction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/Measures.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/Function.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/test/HelloWorld.Test/FunctionTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/Recipe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/HelloWorld/ExtendedIngredient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D601969F-37CD-4D20-81C9-D249262E782F/2E/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/HelloWorld/Step.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/HelloWorld/AnalyzedInstruction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HelloWorld/Function.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" />
-        <option value="$PROJECT_DIR$/src/HelloWorld/Step.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/AnalyzedInstruction.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Measures.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/ExtendedIngredient.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/Ingredient.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/Equipment.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/CookTime.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/Step.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +103,7 @@
       <workItem from="1579985954317" duration="1763000" />
       <workItem from="1579987775404" duration="2977000" />
       <workItem from="1580173351912" duration="394000" />
-      <workItem from="1581303360440" duration="2168000" />
+      <workItem from="1581303360440" duration="4215000" />
     </task>
     <servers />
   </component>
