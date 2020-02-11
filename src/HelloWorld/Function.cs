@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -27,6 +29,28 @@ namespace HelloWorld
                 .ConfigureAwait(continueOnCapturedContext: false);
 
             return msg.Replace("\n", "");
+        }
+        
+        public APIGatewayProxyResponse LambdaStreamHandler(Stream input, ILambdaContext context)
+        {
+            string inputString = string.Empty;
+            context.Logger.LogLine("started 'LambdaStreamHandler' method");
+            // Read the stream into a string
+            if (input != null)
+            {
+                StreamReader streamReader = new StreamReader(input);
+                inputString = streamReader.ReadToEnd();
+            }
+            context.Logger.LogLine($"LambdaStreamHandler: received the following string: {inputString}");
+            // Create APIGateway response object that contains the input string.
+            // For API Gateway trigger, any other response would generate an exception
+            var response = new APIGatewayProxyResponse
+            {
+                StatusCode = (int)HttpStatusCode.OK,
+                Body = inputString,
+                Headers = new Dictionary<string, string> { { "Content-Type", "application/json" } }
+            };
+            return response;
         }
 
         public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest apigProxyEvent,
