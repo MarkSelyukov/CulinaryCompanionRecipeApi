@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f15a0886-6400-4d5c-87e7-e6a441e2634d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.aws-sam/build/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/template.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/Function.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Function.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +49,7 @@
         <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Measures.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
+        <option value="$PROJECT_DIR$/template.yaml" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Function.cs" />
       </list>
     </option>
@@ -113,7 +107,8 @@
       <workItem from="1581303360440" duration="5583000" />
       <workItem from="1581385497534" duration="1146000" />
       <workItem from="1581386945273" duration="542000" />
-      <workItem from="1581387920996" duration="5508000" />
+      <workItem from="1581387920996" duration="5899000" />
+      <workItem from="1581393957308" duration="3468000" />
     </task>
     <servers />
   </component>

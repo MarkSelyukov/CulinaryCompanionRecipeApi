@@ -10,7 +10,7 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://hellowworld7894153513286/a436f0d3d68c046bd5b590e83d91f746
+      CodeUri: s3://hellowworld7894153513286/2ff0fc632340a9db630707f3afa91206
       Handler: HelloWorld::HelloWorld.Function::FunctionHandler
       Runtime: dotnetcore2.1
       Environment:
@@ -20,7 +20,7 @@ Resources:
         HelloWorld:
           Type: Api
           Properties:
-            Path: /hello
+            Path: /search
             Method: get
 Outputs:
   HelloWorldApi:

@@ -20,7 +20,7 @@ Resources:
         HelloWorld:
           Type: Api
           Properties:
-            Path: /hello
+            Path: /search
             Method: get
 Outputs:
   HelloWorldApi:

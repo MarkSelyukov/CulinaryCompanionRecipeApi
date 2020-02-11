@@ -29,8 +29,7 @@ namespace HelloWorld
             return msg.Replace("\n", "");
         }
 
-        public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest apigProxyEvent,
-            ILambdaContext context)
+        public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest apigProxyEvent, ILambdaContext context)
         {
             var location = await GetCallingIp();
 
