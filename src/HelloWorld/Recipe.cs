@@ -41,8 +41,8 @@ namespace HelloWorld
         public object sourceName { get; set; }
         public object creditsText { get; set; }
         public String[] imageUrls;
-
-        Recipe()
+        
+        public Recipe()
         {
         }
 
