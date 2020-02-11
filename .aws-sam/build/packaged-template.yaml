@@ -10,7 +10,7 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://hellowworld7894153513286/2ff0fc632340a9db630707f3afa91206
+      CodeUri: s3://hellowworld7894153513286/75601784de179f9096dbe09814939ba5
       Handler: HelloWorld::HelloWorld.Function::FunctionHandler
       Runtime: dotnetcore2.1
       Environment:
@@ -22,6 +22,83 @@ Resources:
           Properties:
             Path: /search
             Method: get
+  HelloWorldFunction1:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: s3://hellowworld7894153513286/3c61a9d611a100ad459f0fffa787c1b3
+      Handler: HelloWorld::HelloWorld.Function::FunctionHandler
+      Runtime: dotnetcore2.1
+      Environment:
+        Variables:
+          cuisine: VALUE
+          excludeCuisine: VALUE
+          diet: VALUE
+          intolerances: VALUE
+          equipment: VALUE
+          includeIngredients: VALUE
+          excludeIngredients: VALUE
+          type: VALUE
+          maxReadyTime: VALUE
+          minCarbs: VALUE
+          maxCarbs: VALUE
+          minProtein: VALUE
+          maxProtein: VALUE
+          minCalories: VALUE
+          maxCalories: VALUE
+          minFat: VALUE
+          maxFat: VALUE
+          minCaffeine: VALUE
+          maxCaffeine: VALUE
+          minCopper: VALUE
+          maxCopper: VALUE
+          minCalcium: VALUE
+          maxCalcium: VALUE
+          minCholesterol: VALUE
+          maxCholesterol: VALUE
+          minSaturatedFat: VALUE
+          maxSaturatedFat: VALUE
+          minVitaminA: VALUE
+          maxVitaminA: VALUE
+          minVitaminC: VALUE
+          maxVitaminC: VALUE
+          minVitaminD: VALUE
+          maxVitaminD: VALUE
+          minVitaminE: VALUE
+          maxVitaminE: VALUE
+          minVitaminK: VALUE
+          maxVitaminK: VALUE
+          minVitaminB1: VALUE
+          maxVitaminB1: VALUE
+          minVitaminB2: VALUE
+          maxVitaminB2: VALUE
+          minVitaminB5: VALUE
+          maxVitaminB5: VALUE
+          minVitaminB3: VALUE
+          maxVitaminB3: VALUE
+          minVitaminB6: VALUE
+          maxVitaminB6: VALUE
+          minVitaminB12: VALUE
+          maxVitaminB12: VALUE
+          minFiber: VALUE
+          maxFIber: VALUE
+          minIron: VALUE
+          maxIron: VALUE
+          minMagnesium: VALUE
+          maxMagnesium: VALUE
+          minPotassium: VALUE
+          maxPotassium: VALUE
+          minSodium: VALUE
+          maxSodium: VALUE
+          minSugar: VALUE
+          maxSugar: VALUE
+          minZinc: VALUE
+          maxZinc: VALUE
+      Events:
+        HelloWorld:
+          Type: Api
+          Properties:
+            Path: /search
+            Method: post
 Outputs:
   HelloWorldApi:
     Description: API Gateway endpoint URL for Prod stage for Hello World function
