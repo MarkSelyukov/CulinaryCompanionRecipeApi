@@ -44,10 +44,13 @@ namespace HelloWorld
             context.Logger.LogLine($"LambdaStreamHandler: received the following string: {inputString}");
             // Create APIGateway response object that contains the input string.
             // For API Gateway trigger, any other response would generate an exception
+
+            var body = inputString;
+            
             var response = new APIGatewayProxyResponse
             {
+                Body = JsonConvert.SerializeObject(body),
                 StatusCode = (int)HttpStatusCode.OK,
-                Body = inputString,
                 Headers = new Dictionary<string, string> { { "Content-Type", "application/json" } }
             };
             return response;
@@ -58,14 +61,14 @@ namespace HelloWorld
         {
             var location = await GetCallingIp();
 
-            var body = new RecipesList("Pork", null, null, null, null, null, null, null, null, null, null, null, null,
+            /*var body = new RecipesList("Pork", null, null, null, null, null, null, null, null, null, null, null, null,
                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-
+            */
             return new APIGatewayProxyResponse
             {
-                Body = JsonConvert.SerializeObject(body),
+                //Body = JsonConvert.SerializeObject(body),
                 StatusCode = 200,
                 Headers = new Dictionary<string, string>
                 {

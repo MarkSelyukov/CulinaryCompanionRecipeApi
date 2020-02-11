@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f15a0886-6400-4d5c-87e7-e6a441e2634d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/Function.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Function.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/Debug/netcoreapp2.1/HelloWorld.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/HelloWorld.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +87,7 @@
       <workItem from="1579987775404" duration="2977000" />
       <workItem from="1580173351912" duration="394000" />
       <workItem from="1581303360440" duration="2168000" />
-      <workItem from="1581451618087" duration="1165000" />
+      <workItem from="1581451618087" duration="1523000" />
     </task>
     <servers />
   </component>
