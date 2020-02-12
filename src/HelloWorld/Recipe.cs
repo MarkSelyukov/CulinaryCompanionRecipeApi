@@ -40,6 +40,7 @@ namespace HelloWorld
         public List<AnalyzedInstruction> analyzedInstructions { get; set; }
         public object sourceName { get; set; }
         public object creditsText { get; set; }
+        
         public Recipe()
         {
         }
