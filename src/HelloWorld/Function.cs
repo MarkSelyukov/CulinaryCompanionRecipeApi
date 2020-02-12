@@ -34,14 +34,9 @@ namespace HelloWorld
         public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest apigProxyEvent,
             ILambdaContext context)
         {
-            var query = apigProxyEvent.Body;
+            RecipeSearch recipeSearch = JsonConvert.DeserializeObject<RecipeSearch>(apigProxyEvent.Body);
 
-            var i = JsonConvert.DeserializeObject<RecipeSearch>(query);
-
-            var body = new RecipesList(i.query, null, null, null, null, null, null, null, null, null, null, null, null,
-                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
-                null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
+            var body = new RecipesList(recipeSearch);
             
             return new APIGatewayProxyResponse
             {
