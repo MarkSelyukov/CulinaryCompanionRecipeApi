@@ -20,7 +20,6 @@
         <e p="AnalyzedInstruction.cs" t="Include" />
         <e p="aws-lambda-tools-defaults.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CookTime.cs" t="Include" />
         <e p="Equipment.cs" t="Include" />
         <e p="ExtendedIngredient.cs" t="Include" />
         <e p="Function.cs" t="Include" />

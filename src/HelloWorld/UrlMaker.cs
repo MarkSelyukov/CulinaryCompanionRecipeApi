@@ -11,7 +11,7 @@ namespace HelloWorld
         private string apiKey = "e1f10f400ad84c099085e73db4e42fc0";
 
         private string searchAmountURL = "&number=";
-        public string searchAmount = "5";
+        public string searchAmount = "1";
 
         private string searchRecipeRequiredURL = "&instructionsRequired=";
         private string searchRecipeRequired = "true";
@@ -99,8 +99,9 @@ namespace HelloWorld
             {
                 if (urlArray[i, 1] != null)
                     UrlCreation = UrlCreation + urlArray[i, 0] + urlArray[i, 1];
-                Console.WriteLine(UrlCreation);
             }
+            
+            Console.WriteLine(UrlCreation);
         }
     }
 }
