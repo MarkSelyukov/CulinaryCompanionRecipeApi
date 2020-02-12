@@ -40,25 +40,14 @@ namespace HelloWorld
         public List<AnalyzedInstruction> analyzedInstructions { get; set; }
         public object sourceName { get; set; }
         public object creditsText { get; set; }
-        public String[] imageUrls;
 
-        Recipe()
+        public Recipe()
         {
-        }
-
-        public Recipe(string id, string title, string readyInMinutes, string servings, string image, string[] imageUrls)
-        {
-            this.id = id;
-            this.title = title;
-            this.readyInMinutes = readyInMinutes;
-            this.servings = servings;
-            this.image = image;
-            this.imageUrls = imageUrls;
         }
 
         public override string ToString()
         {
-            return "id: " + this.id + " title: " + this.title + "image urls: " + imageUrls[0];
+            return "id: " + this.id + " title: " + this.title + "image urls: ";
         }
     }
 }

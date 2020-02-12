@@ -17,14 +17,7 @@ namespace HelloWorld
             UrlMaker urlMaker = new UrlMaker(recipeSearch);
             this.recipeListUrl = urlMaker.UrlCreation;
             this.returnedRecipesString = new WebClient().DownloadString(this.recipeListUrl);
-            ParseJson(recipeResults);
-        }
-
-        public void ParseJson(Recipe recipeResults)
-        {
-            recipeResults = JsonConvert.DeserializeObject<Recipe>(this.returnedRecipesString);
-
-            recipes.Add(recipeResults);
+            recipes.Add(JsonConvert.DeserializeObject<Recipe>(this.returnedRecipesString));
         }
     }
 }

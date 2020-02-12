@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" afterDir="false" />
@@ -42,13 +43,13 @@
         <option value="$PROJECT_DIR$/src/HelloWorld/AnalyzedInstruction.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Measures.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/ExtendedIngredient.cs" />
-        <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
         <option value="$PROJECT_DIR$/test/HelloWorld.Test/FunctionTest.cs" />
         <option value="$PROJECT_DIR$/template.yaml" />
         <option value="$PROJECT_DIR$/src/HelloWorld/RecipeSearch.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Function.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +105,7 @@
       <workItem from="1580173351912" duration="394000" />
       <workItem from="1581303360440" duration="2168000" />
       <workItem from="1581451618087" duration="1523000" />
-      <workItem from="1581475869125" duration="11576000" />
+      <workItem from="1581475869125" duration="12188000" />
     </task>
     <servers />
   </component>
