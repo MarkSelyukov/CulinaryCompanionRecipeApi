@@ -1,4 +1,6 @@
-﻿namespace HelloWorld
+﻿using System;
+
+namespace HelloWorld
 {
     public class UrlMaker
     {
@@ -160,6 +162,7 @@
             {
                 if (urlArray[i, 1] != null)
                     UrlCreation = UrlCreation + urlArray[i, 0] + urlArray[i, 1];
+                Console.WriteLine(UrlCreation);
             }
         }
     }
