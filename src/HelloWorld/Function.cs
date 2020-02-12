@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -32,13 +34,15 @@ namespace HelloWorld
         public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest apigProxyEvent,
             ILambdaContext context)
         {
-            var location = await GetCallingIp();
+            var query = apigProxyEvent.Body;
 
-            var body = new RecipesList("Pork", null, null, null, null, null, null, null, null, null, null, null, null,
+            var i = JsonConvert.DeserializeObject<RecipeSearch>(query);
+
+            var body = new RecipesList(i.query, null, null, null, null, null, null, null, null, null, null, null, null,
                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
                 null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null);
-
+            
             return new APIGatewayProxyResponse
             {
                 Body = JsonConvert.SerializeObject(body),

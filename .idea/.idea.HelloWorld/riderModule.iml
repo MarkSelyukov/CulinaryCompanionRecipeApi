@@ -15,8 +15,8 @@
           <value>
             <DeploySamConfig>
               <option name="autoExecute" value="true" />
-              <option name="bucketName" value="hellowworld7894153513286" />
-              <option name="stackName" value="markselyukov123456789" />
+              <option name="bucketName" value="culinarycompanionbucket" />
+              <option name="stackName" value="CulinaryCompanionStack" />
             </DeploySamConfig>
           </value>
         </entry>

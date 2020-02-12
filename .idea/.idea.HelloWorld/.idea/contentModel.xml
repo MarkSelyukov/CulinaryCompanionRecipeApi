@@ -32,6 +32,7 @@
           </e>
         </e>
         <e p="Recipe.cs" t="Include" />
+        <e p="RecipeSearch.cs" t="Include" />
         <e p="RecipesList.cs" t="Include" />
         <e p="Step.cs" t="Include" />
         <e p="UrlMaker.cs" t="Include" />
