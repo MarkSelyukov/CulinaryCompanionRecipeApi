@@ -44,6 +44,7 @@ namespace HelloWorld
         public object creditsText { get; set; }
         //TODO: add a method that returns the names of the ingredients
         public List<Ingredient> Ingredients = new List<Ingredient>();
+        public List<String> IngredientsInString = new List<string>();
 
         public Recipe(JObject[] results, bool vegetarian, bool vegan, bool glutenFree, bool dairyFree, bool veryHealthy, bool cheap, bool veryPopular, bool sustainable, string weightWatcherSmartPoints, string gaps, bool lowFodmap, string sourceUrl, string spoonacularSourceUrl, string aggregateLikes, double spoonacularScore, double healthScore, double pricePerServing, List<ExtendedIngredient> extendedIngredients, string id, string title, string readyInMinutes, string servings, string image, string imageType, List<object> cuisines, List<string> dishTypes, List<string> diets, List<object> occasions, string instructions, List<AnalyzedInstruction> analyzedInstructions, object sourceName, object creditsText)
         {

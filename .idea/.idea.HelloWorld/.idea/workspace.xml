@@ -6,12 +6,12 @@
       <change beforePath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/HelloWorldFunction/HelloWorld.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" afterDir="false" />
     </list>
@@ -50,8 +50,8 @@
         <option value="$PROJECT_DIR$/src/HelloWorld/RecipeSearch.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Function.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Ingredient.cs" />
-        <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Step.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" />
       </list>
@@ -143,7 +143,7 @@
       <workItem from="1581475869125" duration="12188000" />
       <workItem from="1581489910314" duration="10040000" />
       <workItem from="1584733787589" duration="100000" />
-      <workItem from="1586986180582" duration="1931000" />
+      <workItem from="1586986180582" duration="5177000" />
     </task>
     <servers />
   </component>

@@ -48,6 +48,7 @@ namespace HelloWorld
                         var ingredientFinal = new Ingredient(id, name, image);
                         
                         input.Ingredients.Add(ingredientFinal);
+                        input.IngredientsInString.Add(ingredientFinal.name);
                     }
                 }
 
