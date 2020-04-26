@@ -11,6 +11,7 @@ namespace HelloWorld
         private string returnedRecipesString { get; set; }
         private Recipe recipeResults = null;
         public List<Recipe> recipes = new List<Recipe>();
+        public List<string> ingredientID = new List<string>();
 
         public RecipesList(RecipeSearch recipeSearch)
         {
@@ -20,7 +21,7 @@ namespace HelloWorld
 
             Recipe recipe = JsonConvert.DeserializeObject<Recipe>(this.returnedRecipesString);
 
-            for(int i = 0; i < Int32.Parse(urlMaker.searchAmount); i++) 
+            for (int i = 0; i < Int32.Parse(urlMaker.searchAmount); i++)
             {
                 var result = recipe.results[i];
                 var recipeFromResult = JsonConvert.SerializeObject(result);
@@ -32,26 +33,29 @@ namespace HelloWorld
 
                 //TODO: refactor this code. Break it up into a few methods
                 //foreach (var step in steps)
-                for(int j = 0; j < steps.Count; j++)
+                for (int j = 0; j < steps.Count; j++)
                 {
                     var step = steps[j];
                     var ingredients = step.ingredients;
-                    
+
                     //foreach (var ingredient in ingredients)
-                    for(int k = 0; k < ingredients.Count; k++)
+                    for (int k = 0; k < ingredients.Count; k++)
                     {
                         var ingredient = ingredients[k];
-                        var id = ingredient.id;
-                        var name = ingredient.name;
-                        var image = ingredient.image;
-                        
-                        var ingredientFinal = new Ingredient(id, name, image);
-                        
-                        input.Ingredients.Add(ingredientFinal);
-                        input.IngredientsInString.Add(ingredientFinal.name);
+                        if (!ingredientID.Contains(ingredient.id))
+                        {
+                            var id = ingredient.id;
+                            var name = ingredient.name;
+                            var image = ingredient.image;
+
+                            var ingredientFinal = new Ingredient(id, name, image);
+
+                            input.Ingredients.Add(ingredientFinal);
+                            input.IngredientsInString.Add(ingredientFinal.name);
+                            ingredientID.Add(ingredient.id);
+                        }
                     }
                 }
-
                 recipes.Add(input);
             }
         }
