@@ -11,7 +11,6 @@ namespace HelloWorld
         private string returnedRecipesString { get; set; }
         private Recipe recipeResults = null;
         public List<Recipe> recipes = new List<Recipe>();
-        public List<string> ingredientID = new List<string>();
 
         public RecipesList(RecipeSearch recipeSearch)
         {
@@ -42,20 +41,18 @@ namespace HelloWorld
                     for (int k = 0; k < ingredients.Count; k++)
                     {
                         var ingredient = ingredients[k];
-                        if (!ingredientID.Contains(ingredient.id))
-                        {
-                            var id = ingredient.id;
-                            var name = ingredient.name;
-                            var image = ingredient.image;
 
-                            var ingredientFinal = new Ingredient(id, name, image);
+                        var id = ingredient.id;
+                        var name = ingredient.name;
+                        var image = ingredient.image;
 
-                            input.Ingredients.Add(ingredientFinal);
-                            input.IngredientsInString.Add(ingredientFinal.name);
-                            ingredientID.Add(ingredient.id);
-                        }
+                        var ingredientFinal = new Ingredient(id, name, image);
+
+                        input.Ingredients.Add(ingredientFinal);
+                        input.IngredientsInString.Add(ingredientFinal.name);
                     }
                 }
+
                 recipes.Add(input);
             }
         }
