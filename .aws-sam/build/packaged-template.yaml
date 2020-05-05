@@ -5,12 +5,12 @@ Description: 'Sample SAM Template for AWS
   '
 Globals:
   Function:
-    Timeout: 10
+    Timeout: 100
 Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://culinarycompanionbucket/36b804a59c27d9c51fb04f55820cbbf3
+      CodeUri: s3://culinarycompanionbucket/2ec351508b11f3e8fb245a27103f6005
       Handler: HelloWorld::HelloWorld.Function::FunctionHandler
       Runtime: dotnetcore2.1
       Environment:
