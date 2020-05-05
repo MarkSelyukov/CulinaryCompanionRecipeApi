@@ -7,13 +7,19 @@
       <change beforePath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.aws-sam/build/packaged-template.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HelloWorld/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/publish/HelloWorld.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/bin/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/HelloWorld.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/Release/netcoreapp2.1/rhel.7.2-x64/HelloWorld.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/HelloWorld.Test/FunctionTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/HelloWorld.Test/FunctionTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/AnalyzedInstruction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/Ingredient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D601969F-37CD-4D20-81C9-D249262E782F/321/Stream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/HelloWorld/Equipment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/Function.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HelloWorld/Recipe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/test/HelloWorld.Test/FunctionTest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,15 +53,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/HelloWorld/AnalyzedInstruction.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/ExtendedIngredient.cs" />
-        <option value="$PROJECT_DIR$/test/HelloWorld.Test/FunctionTest.cs" />
         <option value="$PROJECT_DIR$/template.yaml" />
         <option value="$PROJECT_DIR$/src/HelloWorld/RecipeSearch.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Function.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Ingredient.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Step.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/Recipe.cs" />
-        <option value="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" />
+        <option value="$PROJECT_DIR$/test/HelloWorld.Test/FunctionTest.cs" />
         <option value="$PROJECT_DIR$/src/HelloWorld/RecipesList.cs" />
+        <option value="$PROJECT_DIR$/src/HelloWorld/UrlMaker.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +88,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunManager">
-    <configuration name="[Local] HelloWorldFunction" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
+    <configuration name="[Local] HelloWorldFunction" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
       <option name="credentialProviderId" value="profile:default" />
       <option name="regionId" value="us-east-1" />
       <option name="environmentVariables">
@@ -105,11 +112,6 @@
       </sam>
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="AWS Lambda.[Local] HelloWorldFunction" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -148,6 +150,12 @@
       <workItem from="1587067988798" duration="599000" />
       <workItem from="1587919213258" duration="1290000" />
       <workItem from="1587920876963" duration="692000" />
+      <workItem from="1587961958334" duration="1866000" />
+      <workItem from="1588040317352" duration="2530000" />
+      <workItem from="1588201822611" duration="96000" />
+      <workItem from="1588304426431" duration="621000" />
+      <workItem from="1588447127220" duration="1854000" />
+      <workItem from="1588462690090" duration="100000" />
     </task>
     <servers />
   </component>
@@ -170,14 +178,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="405" y="0" width="740" height="824" key="#[Local]_HelloWorldFunction" timestamp="1587920085053">
+    <state x="405" y="0" width="740" height="824" key="#[Local]_HelloWorldFunction" timestamp="1588040370929">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="405" y="0" width="740" height="824" key="#[Local]_HelloWorldFunction/0.0.1536.824/1920.-293.864.1496@0.0.1536.824" timestamp="1587920085053" />
-    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1579979546615">
+    <state x="405" y="0" width="740" height="824" key="#[Local]_HelloWorldFunction/0.0.1536.824/1920.-293.864.1496@0.0.1536.824" timestamp="1588040370929" />
+    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1588047459786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824/1920.-293.864.1496@0.0.1536.824" timestamp="1579979546615" />
+    <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size/0.0.1536.824/1920.-293.864.1496@0.0.1536.824" timestamp="1588047459786" />
     <state x="479" y="92" key="RiderGenerateDialog" timestamp="1581498945013">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

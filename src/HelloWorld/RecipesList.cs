@@ -11,6 +11,7 @@ namespace HelloWorld
         private string returnedRecipesString { get; set; }
         private Recipe recipeResults = null;
         public List<Recipe> recipes = new List<Recipe>();
+        public Dictionary<string,string> recipeIdDic = new Dictionary<string, string>();
 
         public RecipesList(RecipeSearch recipeSearch)
         {
@@ -46,14 +47,18 @@ namespace HelloWorld
                         var name = ingredient.name;
                         var image = ingredient.image;
 
-                        var ingredientFinal = new Ingredient(id, name, image);
+                        if (!recipeIdDic.ContainsKey(ingredient.id))
+                        {
+                            recipeIdDic.Add(ingredient.id, ingredient.name);
+                            var ingredientFinal = new Ingredient(id, name, image);
 
-                        input.Ingredients.Add(ingredientFinal);
-                        input.IngredientsInString.Add(ingredientFinal.name);
+                            input.Ingredients.Add(ingredientFinal);
+                            input.IngredientsInString.Add(ingredientFinal.name);
+                        }
                     }
                 }
-
                 recipes.Add(input);
+                recipeIdDic.Clear();
             }
         }
     }
